@@ -6,6 +6,7 @@ COPY ./requirements.txt /app/requirements.txt
 
 # Set the working directory to /app
 WORKDIR /app
+RUN chmod 777 /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
