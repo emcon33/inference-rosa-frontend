@@ -50,7 +50,7 @@ frontend = gr.Interface(inference,
 
 # Launch app and set PORT
 try:
-    frontend.launch(server_name="0.0.0.0", server_port=7860)
+    frontend.launch(server_name="0.0.0.0", server_port=8080)
 except KeyboardInterrupt:
     frontend.close()
 except Exception as e:
