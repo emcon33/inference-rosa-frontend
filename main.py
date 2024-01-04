@@ -3,8 +3,8 @@ import requests
 
 # Set URL
 # Run: 
-# docker run -p 8000:80 --name cls-serve hasibzunair/classification_model_serving
-REST_API_URL = "http://host.docker.internal:8000/api/predict"
+# update REST_API_URL to your backend link (currently not dynamic) 
+REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.openshiftapps.com/"
 
 # Inference!
 def inference(image_path):
