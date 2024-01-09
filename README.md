@@ -17,7 +17,7 @@ Sample Backend Input Image:
   </em>
 </p>
 
-Sample Text Output:
+
 
 
 OpenShift/ROSA Web Front End instructions (deck to be created) 
@@ -33,7 +33,12 @@ REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.op
 
 5. Click on the web page open and upload your images. 
 
-
+App Architecture: 
+<p align="left">
+  <a href="#"><img src="./architecture.jpg" width="600"></a> <br />
+  <em> 
+  </em>
+</p>
 
 
 
