@@ -12,7 +12,7 @@ Containerized app that serves a containerized Resnet18 deep learning image class
 
 Sample Backend Input Image: 
 <p align="left">
-  <a href="#"><img src="./sample.jpg" width="600"></a> <br />
+  <a href="#"><img src="./sample.jpeg" width="600"></a> <br />
   <em> 
   </em>
 </p>
