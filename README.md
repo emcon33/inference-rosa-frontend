@@ -32,9 +32,9 @@ REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.op
 
 6. On ROSA build the front end project from your github repo. 
 
-8. Click on the web page open and upload your images. You can create multiple front ends to the same backend via manual git import builds, you can set a pipeline with webhooks, or you can configure ArgoCD to trigger updates etc. 
+7. Click on the web page open and upload your images. You can create multiple front ends to the same backend via manual git import builds, you can set a pipeline with webhooks, or you can configure ArgoCD to trigger updates etc. 
 
-2 Tier App Architecture: 
+2 Tier Web App 
 <p align="left">
   <a href="#"><img src="./architecture.jpg" width="600"></a> <br />
   <em> 
@@ -42,9 +42,19 @@ REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.op
 </p>
 
 
-In Process: Add an ArgoCD Pipeline 
-#ArgoCD/Tekton Pipeline 
-https://docs.openshift.com/container-platform/4.10/cicd/gitops/setting-up-argocd-instance.html
+8. To Test a pipeline with a Webhook, you can select the "pipeline" option during the github import for the container. This will create a Tekton pipeline. 
+
+9. You can configure a "webhook" to github that will trigger an auto pull, build and deploy from your github repo fork. The full procedures are here. 
+https://redhat-scholars.github.io/openshift-starter-guides/rhs-openshift-starter-guides/4.9/nationalparks-java-codechanges-github.html
+
+Pipeline that can be manual or webhook driven. 
+<p align="left">
+  <a href="#"><img src="./Pipeline Build.jpeg" width="600"></a> <br />
+  <em> 
+  </em>
+</p>
+
+If you configure a Github Webhook, updates to the Github Repo it will auto build the pipeline fully integrated within the ROSA Plaform. 
 
 
 Original source https://towardsai.net/p/machine-learning/build-and-deploy-custom-docker-images-for-object-recognition
