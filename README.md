@@ -54,6 +54,8 @@ Pipeline that can be manual or webhook driven.
   </em>
 </p>
 
+
+
 If you configure a Github Webhook, updates to the Github Repo it will auto build the pipeline fully integrated within the ROSA Plaform. 
 
 
