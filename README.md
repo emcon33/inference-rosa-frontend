@@ -57,7 +57,7 @@ Pipeline that can be manual or webhook driven.
 
 
 If you configure a Github Webhook, updates to the Github Repo it will auto build the pipeline fully integrated within the ROSA Plaform. 
-
+Test update 
 
 Original source https://towardsai.net/p/machine-learning/build-and-deploy-custom-docker-images-for-object-recognition
 Forked from this github https://github.com/hasibzunair/imagercg-waiter
