@@ -38,10 +38,12 @@ REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.op
 
 
 Optional 
+
 4. To Test with a pipeline, rebiuld the project again with a -dev name you can select the "pipeline" option during the github import for the container. This will create a Tekton pipeline.
    
 Optional 
-9. You can configure a "webhook" to your github that will trigger an auto pull, build and deploy from your github repo fork. The full procedures are here. A "commit" will push the new code and automatically build. 
+
+5. You can configure a "webhook" to your github that will trigger an auto pull, build and deploy from your github repo fork. The full procedures are here. A "commit" will push the new code and automatically build. 
 https://redhat-scholars.github.io/openshift-starter-guides/rhs-openshift-starter-guides/4.9/nationalparks-java-codechanges-github.html
 
 Pipeline that can be manual or webhook driven. 
