@@ -58,7 +58,7 @@ This displays a github 2 tier web app with a ResNET18 backend for Image Classifi
 Blue Green deployments are also possible with 2 generations of front end connected to a backend. 
 
 Original source https://towardsai.net/p/machine-learning/build-and-deploy-custom-docker-images-for-object-recognition
+
 Forked from this github https://github.com/hasibzunair/imagercg-waiter
 
-
-`
+Enjoy
