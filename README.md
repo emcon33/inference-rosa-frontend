@@ -1,10 +1,9 @@
-# inference-rosa-workshop
-# This is a workshop for deploying a Pytorch & FastAPI project to ROSA on AWS and perform inference.
+# inference-rosa-frontend
 # This adds a Gradio Frontend to the project prior project
 Upload in your images to see the predictions made by the model in a web interface.
 Mod by Andrew Grimes and Jim Garrett of Red Hat 
 
-Containerized app that serves a containerized Resnet18 deep learning image classification model using FastAPI. We used an ImageNet pretrained model that can predict 1000 different classes of general objects, the samples are animals but it will work with anything. See class list [here](https://deeplearning.cms.waikato.ac.nz/user-guide/class-maps/IMAGENET/).
+This is a Gradio web front end to an API accessed backend to upload "test images" to a container based 2 tier web-app. You can build out multiple front ends for generational access and create pipeline and webhook driven CI/CD process to simulate onboing development and deployment of projects. You can form the project to your own github page to do additonal development. we recommend you have a github project available for the web front end addition. 
 
 
 Sample Frontend Input Image: 
