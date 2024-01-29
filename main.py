@@ -4,7 +4,7 @@ import requests
 # Set URL
 # Run: 
 # update REST_API_URL to your backend link (currently not dynamic)
-REST_API_URL = "https://docs.google.com/spreadsheets/d/1B7ZsjuxJrbSBPjBBtYQzZXeXnfVxn296Qtn-G63mTkc/edit?usp=sharing/api/predict"
+REST_API_URL = "https://inference-rosa-workshop-test.apps.rosa-x7ksq.i0yy.p1.openshiftapps.com/api/predict"
 
 # Inference!
 def inference(image_path):
