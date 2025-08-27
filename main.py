@@ -4,7 +4,7 @@ import requests
 # Set URL
 # Run: 
 # update REST_API_URL to your backend link (currently not dynamic)
-REST_API_URL = "https://inference-rosa-workshop-blue-deleteme.apps.rosa.rosa-qm68s.eikn.p3.openshiftapps.com/api/predict"
+REST_API_URL = "https://inference-rosa-workshop-deleteme.apps.rosa.rosa-q98d2.mvjm.p3.openshiftapps.com/api/predict"
 #REST_API_URL = "https://inference-rosa-workshop-deleteme.apps.rosa-wllx6.tycz.p1.openshiftapps.com/api/predict"
 
 # Inference!
